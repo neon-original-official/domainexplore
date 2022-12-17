@@ -16,7 +16,35 @@
 
 <style>code {font-family: Consolas,"courier new";color: crimson;background-color: #f1f1f1;padding: 2px;font-size: 105%;}.colors::after{nav-up: unset;}div .beta{background-color: gray;color: blue;stroke: skyblue;image-resolution: 16px, 16px;display: none;opacity: 0px;animation: normal;-webkit-nbsp-mode: normal;scroll-margin-block: unset;font-family: "Times New Roman", Times, serif;scroll-margin-top: unset;}body{font-family: sans-serif; }.btn{border: 1px solid grey;height: 50px;background: white;color: black;border-radius: 50px;cursor: pointer; }.btn:disabled{ border: 1px solid grey;height: 50px;background: grey;color: white;border-radius: 50px;cursor: not-allowed;}.play{background: green;color: white;}button{border: 1px solid grey;height: 50px;background: white;color: black;border-radius: 50px;cursor: pointer;}button:disabled{ border: 1px solid grey;height: 50px;background: grey;color: white;border-radius: 50px;cursor: not-allowed;}input{border: 1px solid grey;height: 50px;background: white;color: black;border-radius: 50px;}input:placeholder {border: 1px solid grey;height: 50px;background: white;color: green;border-radius: 50px;}button:hover{background: black;color: white;}.play:hover{background: lightgreen;color: white;}.menu{list-style-type: none;margin: 0;padding: 0;width: 25%;background-color: #f1f1f1;height: 100%;position: fixed; overflow: auto;}#smile{border-radius:55px;border:1px solid black;background:orange;content: ":)";}.button{color:black;border:1px solid;border-radius: 5%;background: rgb(255, 255, 255);}.button:hover{color:white;border:1px solid;border-radius: 5%;background: rgb(124, 123, 123);}.button-disabled:hover{color:rgb(255, 1, 1);border:1px solid;border-radius: 5%;background: rgb(255, 255, 255);cursor:not-allowed;}.button-option{height:100px;width: 100px;}</style>
 <style>
-	
+	    filter: blur(4px);
+    opacity: 0.8;
+    top: -2500%;
+    background-size: 60%;
+    animation-duration: 400s;
+  }
+  &:after {
+    filter: blur(2px);
+    opacity: 0.8;
+    top: -2000%;
+    background-image: url(https://laviwebfiles.com/stage/codepen/4-2-white-snow-png.png);
+    background-size: 70%;
+    animation-duration: 300s;
+  }
+}
+
+@-webkit-keyframes MOVE-BG {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(70%);
+  }
+}
+
+
+
+
+
 	body{
 		margin: 0 auto;
 		padding:0;
@@ -35,6 +63,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K4XPK2D');</script>
 <!-- End Google Tag Manager -->
+<!-- <h1>Snow</h1> -->
+<div class="more-snow"></div>
+
+
 <div style="background: rgb(53, 49, 49);" class="primaryheader"><img src="//neongame.neoncorp.eu.org/Neon.png">Corporation</div>
 <!--Skip-->
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
