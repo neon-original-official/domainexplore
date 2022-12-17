@@ -16,7 +16,66 @@
 
 <style>code {font-family: Consolas,"courier new";color: crimson;background-color: #f1f1f1;padding: 2px;font-size: 105%;}.colors::after{nav-up: unset;}div .beta{background-color: gray;color: blue;stroke: skyblue;image-resolution: 16px, 16px;display: none;opacity: 0px;animation: normal;-webkit-nbsp-mode: normal;scroll-margin-block: unset;font-family: "Times New Roman", Times, serif;scroll-margin-top: unset;}body{font-family: sans-serif; }.btn{border: 1px solid grey;height: 50px;background: white;color: black;border-radius: 50px;cursor: pointer; }.btn:disabled{ border: 1px solid grey;height: 50px;background: grey;color: white;border-radius: 50px;cursor: not-allowed;}.play{background: green;color: white;}button{border: 1px solid grey;height: 50px;background: white;color: black;border-radius: 50px;cursor: pointer;}button:disabled{ border: 1px solid grey;height: 50px;background: grey;color: white;border-radius: 50px;cursor: not-allowed;}input{border: 1px solid grey;height: 50px;background: white;color: black;border-radius: 50px;}input:placeholder {border: 1px solid grey;height: 50px;background: white;color: green;border-radius: 50px;}button:hover{background: black;color: white;}.play:hover{background: lightgreen;color: white;}.menu{list-style-type: none;margin: 0;padding: 0;width: 25%;background-color: #f1f1f1;height: 100%;position: fixed; overflow: auto;}#smile{border-radius:55px;border:1px solid black;background:orange;content: ":)";}.button{color:black;border:1px solid;border-radius: 5%;background: rgb(255, 255, 255);}.button:hover{color:white;border:1px solid;border-radius: 5%;background: rgb(124, 123, 123);}.button-disabled:hover{color:rgb(255, 1, 1);border:1px solid;border-radius: 5%;background: rgb(255, 255, 255);cursor:not-allowed;}.button-option{height:100px;width: 100px;}</style>
 <style>
-	    filter: blur(4px);
+	    @import url("https://fonts.googleapis.com/css?family=Merienda+One");
+
+html {
+  background-color: #000;
+    background-image: url(https://images.unsplash.com/photo-1531972497489-8eb337acf6e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=193456e9385b553747a5e0f0cbc7badb&auto=format&fit=crop&w=1334&q=80);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+/*
+h1 {
+  font-size: 8em;
+  font-family: 'Merienda One';
+  font-weight: 400;
+  position: fixed;
+  top:50%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  line-height: 1;
+  transform: translateY(-50%);
+  z-index: 100;
+  text-shadow: 0 2px 10px rgba(black,0.8);
+}
+*/
+body,
+.more-snow {
+  &:before,
+  &:after {
+    content: "";
+    position: fixed;
+    top: -3000%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(black, 0.01);
+    background-image: url(http://www.freepngimg.com/download/winter_snow/4-2-white-snow-png.png);
+    background-size: 30%;
+    -webkit-animation-name: MOVE-BG;
+    -webkit-animation-duration: 500s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+}
+body {
+  &:before {
+    filter: blur(6px);
+    opacity: 0.8;
+  }
+  &:after {
+    filter: blur(1px);
+    top: -1500%;
+    background-image: url(http://www.freepngimg.com/download/winter_snow/4-2-white-snow-png.png);
+    background-size: 90%;
+    animation-duration: 200s;
+  }
+}
+.more-snow {
+  &:before {
+    filter: blur(4px);
     opacity: 0.8;
     top: -2500%;
     background-size: 60%;
@@ -40,8 +99,6 @@
     transform: translateY(70%);
   }
 }
-
-
 
 
 
