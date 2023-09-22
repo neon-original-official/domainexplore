@@ -1,4 +1,8 @@
-# domainexplore
-# https://neoncorp.eu.org
-# explore this domain:https://domain.neoncorp.eu.org
-# Or want continue to game:https://neongame.neoncorp.eu.org
+# Discontinued Website
+Dear Everyone, We Discontinued The Website Beacuse 2 Fact
+- Fact 1) No Ads
+- Fact 2) No Money<br>
+  thanks for being neon Corporation member
+<br>
+neoncorp.biz.id
+neoncorp.my.id
